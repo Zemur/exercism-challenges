@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Run minitest",
+            "workingDir": "$PROJECT_DIR$",
+            "program": "ruby",
+            "args": ["boutique_inventory_test.rb"],
+        },
+        
+        
+    ]
+}

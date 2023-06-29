@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "go-test",
+            "buildParams": [],
+            "name": "Go Lasagna Test Configuration",
+            "goExecPath": "C:/Program Files/Go/bin/go.exe"
+        },
+        {
+            "type": "command",
+            "name": "Upload Lasanga to Exercism",
+            "dependsOn": ["Go Lasagna Test Configuration"],
+            "program": "Exercism.exe",
+            "args": ["submit"]
+        }
+    ]
+}

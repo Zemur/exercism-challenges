@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "go-test",
+            "buildParams": [],
+            "name": "Go hello-world Test Configuration",
+            "goExecPath": "C:/Program Files/Go/bin/go.exe"
+        },
+        {
+            "type": "command",
+            "name": "Upload to Exercism",
+            "dependsOn": ["Go hello-world Test Configuration"],
+            "program": "Exercism.exe",
+            "args": ["submit"]
+        }
+    ]
+}
